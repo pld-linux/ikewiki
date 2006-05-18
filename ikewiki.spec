@@ -1,7 +1,7 @@
 %define		_snap	2006-03-31
 %define		_ver %(echo %{_snap} | tr -d -)
-Summary:	IkeWiki
-Name:		ikewiki
+Summary:	IkeWiki - a Semantic Wiki
+Name:		ikewiki - sematyczne Wiki
 Version:	0.0.%{_ver}
 Release:	0.1
 License:	GPL
@@ -27,6 +27,12 @@ IkeWiki is a special kind of Wiki (a "Semantic Wiki") that allows
 users to annotate their pages using Semantic Web standards like RDF(S)
 or OWL. It is easy to use and suitable as a tool for "knowledge
 engineering".
+
+%description -l pl
+IkeWiki to specjalny rodzaj Wiki ("Semantyczne Wiki") pozwalaj±cy
+u¿ytkownikom dodawaæ do stron obja¶nienia przy u¿yciu standardów
+Semantic Web takich jak RDF(S) czy OWL. Jest ³atwe w u¿yciu i
+odpowiednie jako narzêdzie do "in¿ynierii wiedzy".
 
 %prep
 %setup -q -n %{name}-snapshot.%{_snap}
