@@ -11,7 +11,7 @@ Source0:	http://dl.sourceforge.net/ikewiki/%{name}-snapshot.%{_snap}-src.tar.gz
 # Source0-md5:	198748e2a801487cb73074d369633256
 URL:		http://ikewiki.salzburgresearch.at/
 BuildRequires:	rpmbuild(macros) >= 1.268
-BuildRequires:	jakarta-ant
+BuildRequires:	ant
 Requires:	webapps
 Requires:	jre >= 1.5.0
 Requires:	tomcat >= 5.5.12
