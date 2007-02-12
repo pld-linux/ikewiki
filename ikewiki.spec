@@ -1,7 +1,7 @@
 %define		_snap	2006-03-31
 %define		_ver %(echo %{_snap} | tr -d -)
 Summary:	IkeWiki - a Semantic Wiki
-Summary(pl.UTF-8):   IkeWiki - semantyczne wiki
+Summary(pl.UTF-8):	IkeWiki - semantyczne wiki
 Name:		ikewiki
 Version:	0.0.%{_ver}
 Release:	0.1
